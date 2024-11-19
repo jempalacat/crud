@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +35,7 @@
                     </div>
                     <?php
                     // Include config file
-                    require_once "config.php";
+                    require_once "conn.php";
                     
                     // Attempt select query execution
                     $sql = "SELECT * FROM employees";
